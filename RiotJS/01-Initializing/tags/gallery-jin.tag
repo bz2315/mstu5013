@@ -1,12 +1,12 @@
 <gallery-jin>
-	
+
 	<strong>gallery-jin.tag</strong>
 	<div class="images">
 		<photo-jin each={ words }></photo-jin>
 	</div>
 
 	<script>
-		this.words = ["Alpha","Bravo","Charlie","Delta","Echo"];
+		this.words = ["Alpha","Bravo","Charlie"];
 	</script>
 
 	<style>
@@ -20,10 +20,10 @@
 			text-align: center;
 		}
 		photo-jin {
-			margin-right: 30px;
+			margin-right: 100px;
 			margin-bottom: 30px;
 			background: #333;
-			color: #FFF;
+			color: #FFF000;
 			border-width: 0;
 		}
 	</style>
