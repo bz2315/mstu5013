@@ -1,11 +1,13 @@
 <photo-jin>
 
+	<p>{ word }</p>
 	<div class="photoTitle"><strong>photo-jin.tag</strong></div>
 	<img src="https://media.tenor.com/images/0e447bcb092088c8bd09584b2c2dd833/tenor.gif" alt="placeholder" />
 	<p>This is some demo text for this above image.</p>
 
 	<script>
 		console.log('Initialized photo-component.');
+		console.dir(this);
 	</script>
 
 	<style>
